@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard Core Gym </title>
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url("gymBG.jpg"); 
+        font-family: 'Baloo Bhai 2', cursive;
+        
+    }
+    
+
+    .left {
+        /* border: 2px solid blue; */
+        display: inline-block;
+        position: absolute;
+        top: 22px;
+        left: 25px;
+        font-size: 21px;
+        line-height: 0.8;
+
+    }
+    .left img{
+        width: 153px;
+        filter: invert(100%);
+    }
+
+    .mid {
+        /* border: 2px solid blue; */
+        display: block;
+        width: 39%;
+        margin: 22px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        top: 22px;
+        right: 25px;
+        /* border: 2px solid blue; */
+        display: inline-block;
+
+    }
+
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 5px 14px;
+    }
+
+    .navbar li a:hover, .navbar li a.active{
+        
+        text-decoration: underline;
+        color:rgb(255, 161, 73);
+    }
+
+    .btn{
+
+        margin: 0px,10px;
+        padding: 4px, 22px;
+        background-color: rgba(177, 38, 38, 0);
+        color: rgb(255, 255, 255);
+        border: 2px solid white;
+        border-radius: 13px;
+        font-size: 17px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+
+        
+    }
+
+    .btn:hover{
+        background-color: rgba(253, 96, 49, 0.555);
+    }
+
+    .form-group input{
+        display: block;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 21px;
+    text-align: center;
+    width: 437px;
+    border: 2px solid rgb(255, 198, 93);
+    margin: 6px auto;
+    padding: 7px 12px;
+    border-radius: 15px;
+
+    }
+
+    .container{
+        border: 3px solid orange;
+        border-radius: 15px;
+        display: inline-block;
+    margin: 72px 47px;
+    padding: 22px;
+    width: 38%;
+    }
+    
+    .container h1{
+        font-size: 48px;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .container button{
+        width: 34%;
+        display: block;
+        margin: 28px auto;
+        
+    padding: 10px;
+    font-weight: 600;
+    }
+
+
+
+</style>
+
+<body>
+    <div class="header"><!-- left box for logo -->  
+            <div class="left">
+                <img src="gymLOGO.png" alt="">
+                <div>HARD CORE GYM</div>
+            </div>
+        </div>
+
+        <div class="mid">
+            <!-- mid box for navbar -->
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            
+        </div>
+        <div class="right">
+            <!-- right box for buttons -->
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>This is a container.</h1>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your age">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your address">
+        </div>
+
+        <button class="btn">Submit</button>
+
+    </div>
+
+</body>
+
+</html>
